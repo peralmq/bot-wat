@@ -1,7 +1,7 @@
 {
-  "name": "koa-facebook-messenger-echo-bot",
+  "name": "bot-wat",
   "version": "1.0.0",
-  "description": "Bot for Facebook Messenger that echoes everything. Written using Koa 2",
+  "description": "Hi, I'm a messenger bot based on Gary Bernhardt's Wat talk (https://www.destroyallsoftware.com/talks/wat).",
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peralmq/koa-facebook-messenger-echo-bot.git"
+    "url": "git+https://github.com/peralmq/bot-wat.git"
   },
   "keywords": [
     "bot",
@@ -20,14 +20,15 @@
   "author": "Pelle Almquist <peralmq@kth.se>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/peralmq/koa-facebook-messenger-echo-bot/issues"
+    "url": "https://github.com/peralmq/bot-wat/issues"
   },
-  "homepage": "https://github.com/peralmq/koa-facebook-messenger-echo-bot#readme",
+  "homepage": "https://github.com/peralmq/bot-wat#readme",
   "dependencies": {
     "koa": "^2.0.0",
     "koa-bodyparser": "^3.0.0",
     "koa-router": "^7.0.1",
-    "request": "^2.71.0"
+    "request": "^2.71.0",
+    "safe-eval": "^0.2.0"
   },
   "devDependencies": {
     "eslint": "^2.5.3",

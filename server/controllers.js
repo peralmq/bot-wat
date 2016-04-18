@@ -26,7 +26,7 @@ module.exports = function(
         method: 'POST',
         json: {
           recipient: {id: options.senderId},
-          message: {text: options.messageText}
+          message: {text: JSON.stringify(options.messageText)}
         }
       });
     }
