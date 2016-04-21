@@ -1,0 +1,19 @@
+{
+  "name": "bot-wat",
+  "description": "Hi, I'm a messenger bot based on Gary Bernhardt's Wat talk (https://www.destroyallsoftware.com/talks/wat).",
+  "repository": "https://github.com/peralmq/bot-wat.git",
+  "keywords": [
+    "bot",
+    "facebook",
+    "messenger",
+    "koa"
+  ],
+  "env": {
+    "PAGE_TOKEN": {
+      "description": "Facebook page token"
+    },
+    "VERIFY_TOKEN": {
+      "description": "Facebook verification token"
+    }
+  }
+}

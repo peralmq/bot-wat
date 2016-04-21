@@ -12,6 +12,9 @@ heroku create <app name>
 heroku git:remote -a <app name>
 heroku config set PAGE_TOKEN=<Facebook page token> VERIFY_TOKEN=<Facebook verification token> -a <app name>
 ```
+Or just click:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 # Development
 `npm test`
